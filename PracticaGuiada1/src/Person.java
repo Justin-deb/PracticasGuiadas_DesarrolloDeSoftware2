@@ -13,6 +13,14 @@ public class Person{
         return manager.addPet(pet);
     }
 
+    public boolean removePet(Pet pet){
+        return manager.removePet(pet);
+    }
+
+    public boolean updatePet(Pet pet, int index){
+        return manager.updatePets(pet, index);
+    }
+    
     public String getName() {
         return name;
     }
@@ -29,5 +37,11 @@ public class Person{
         this.age = age;
     }
 
+    public PetManager getPetManager(){
+        return manager;
+    }
 
+    public Pet[] getPets(){
+        return manager.getPets();
+    }
 }
