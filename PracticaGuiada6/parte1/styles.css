@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: slategrey;
+    background-color: bisque;
+}
+
+.content{
+    text-align: start;
+    padding-left: 5rem;
+}
+
+#firstParagraph{
+    color: slategrey;
+}
+
+[type]{
+    border: 2px solid blue;
+}
